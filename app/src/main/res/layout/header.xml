@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#D3B5E5"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/iiswbmlogo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department of Energy Management"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IISWBM"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India's first Management Institute"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-black"/>
+
+
+</LinearLayout>

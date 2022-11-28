@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--    <item-->
+        <!--        android:id="@+id/nav_home"-->
+        <!--        android:title="Home"-->
+        <!--        android:icon="@drawable/home_icon"/>-->
+
+
+
+
+        <item
+            android:id="@+id/nav_link"
+            android:title="BEE Books"
+            android:icon="@drawable/link"
+            tools:ignore="DuplicateIds" />
+
+        <item
+            android:id="@+id/nav_aeelogin"
+            android:title="Members login"
+            android:icon="@drawable/login"/>
+        <item
+            android:id="@+id/nav_aeeregistration"
+            android:title="AEE Registration"
+            android:icon="@drawable/registration"/>
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="Contact us"
+            android:icon="@drawable/contactus"/>
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About us"
+            android:icon="@drawable/aboutus"/>
+
+
+
+    </group>
+</menu>

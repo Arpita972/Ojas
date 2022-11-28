@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinkActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:id="@+id/toastText"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#302b63"
+            android:text="BEE e-books download link for ready reference"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/toastImage"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/iiswbmlogo" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#23074d"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="https://drive.google.com/file/d/1IX_LRo8u_0nKGUBim-EuKznkVRsZ1JiH/view?usp=sharing"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:autoLink="web"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="https://drive.google.com/file/d/13c_l9WqZpQYrSViaRZ9bRZbq9Z4yAqiF/view?usp=sharing"
+            android:gravity="center"
+            android:autoLink="web"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bee" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="https://drive.google.com/file/d/1NRyBECE_kyG54AlYIlh2CKBWQ82_dwbg/view?usp=sharing"
+            android:gravity="center"
+            android:autoLink="web"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bee" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="https://drive.google.com/file/d/1hxpj63oRyan41WAUTSpGnIh1GLkQWy8H/view?usp=sharing"
+            android:gravity="center"
+            android:autoLink="web"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bee" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

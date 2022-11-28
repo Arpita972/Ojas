@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/toastText"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="This App is developed and maintained by Arpita Dey, Vice President of AEE India Kolkata Student Chapter, Energy Management, 2019-21 batch, IISWBM. Contact developer email id: ardtech007@gmail.com"
+            android:textColor="#302b63"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/toastImage"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/arpitadeypic" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#23074d" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Address: College Square West, Behind, Calcutta University, College Square, Kolkata, West Bengal 700073"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="Email id: iiswbm@iiswbm.edu"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="placements@iiswbm.edu"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="EPABX:+91-33-2241 3756,+91-33-2241 8694,+91-33-2241 8695,+91-33-4023 7474"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/toastImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iiswbmlogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Email id: iiswbm@iiswbm.edu"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:gravity="left"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:text="Hobbies and interests:"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Energy Analysis"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Energy Audit and management"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Solar analysis with PVSYST"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Android development in Java."-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Basic web development in HTML, CSS and JS"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Database with SQL"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+
+    <!--        />-->
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Machine learning and Artificial Intelligence"-->
+    <!--        android:gravity="left"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        />-->
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AEE-India Kolkata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="array_writeup_wisdom">
+        <item>gis_in_power_sectors.pdf</item>
+        <item>small_scale_solar.pdf</item>
+        <item>hydrogen_fuelcell_ arijitdas.pdf</item>
+        <item>concentrix.pdf</item>
+    </string-array>
+</resources>

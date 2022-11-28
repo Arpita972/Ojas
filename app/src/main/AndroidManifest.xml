@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danti.ojasaee">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <activity android:name=".NewsletterActivity"></activity>
+        <activity android:name=".GalleryofENCONActivity" />
+        <activity android:name=".AEERegistration" />
+        <activity android:name=".AEEMemberLogin" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".LinkActivity" />
+        <activity android:name=".PDFListActivity" />
+        <activity android:name=".PDFActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".EmailActivity" />
+        <activity android:name=".ScannedBarcodeActivity" />
+        <activity android:name=".EnergyNews" />
+        <activity android:name=".YouTube" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
